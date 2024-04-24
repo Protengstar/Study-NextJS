@@ -1,0 +1,14 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+  flex-direction: column;
+  color: #6c63ff;
+  font-size: 1.5rem;
+  &__image {
+    width: 50%;
+  }
+}
