@@ -5,6 +5,7 @@ import Link from "next/link";
 const LoginViews = () => {
   const { push } = useRouter();
   const handleLogin = () => {
+    console.log("handleLogin");
     push("/product");
   };
   return (
