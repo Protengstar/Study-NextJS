@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <div>Hello World!</div>
+      <div>Hello User</div>
     </div>
   );
 }
