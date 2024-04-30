@@ -12,7 +12,7 @@ const LoginViews = () => {
     <div className={styles.login}>
       <h1 className="text-xl font-bold">Login Pages</h1>
       <button onClick={() => handleLogin()}>Login</button>
-      <p style={{ color: "red", border: "1px solid black", borderRadius: "5px" }}>
+      <p style={{ color: "red" }}>
         Belum punya akun? Registrasi <Link href={"/auth/register"}>Disini</Link>
       </p>
     </div>
